@@ -1,0 +1,9 @@
+{
+	"name": "lkytal.autocoffee.node",
+	"version": "1.0.0",
+	"description": "Node script for lkytal.autocoffee",
+	"dependencies": {
+		"coffee-script": "*",
+		"mkpath": "~0.1.0"
+	}
+}
