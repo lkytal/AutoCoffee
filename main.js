@@ -1,14 +1,15 @@
 define(function (require, exports, module) {
 	"use strict";
 
-	var ProjectManager = brackets.getModule("project/ProjectManager"),
+	var AppInit = brackets.getModule("utils/AppInit"),
+		ProjectManager = brackets.getModule("project/ProjectManager"),
 		ExtensionUtils = brackets.getModule("utils/ExtensionUtils"),
 		NodeConnection = brackets.getModule("utils/NodeConnection"),
 		FileSystem = brackets.getModule("filesystem/FileSystem"),
 		FileUtils = brackets.getModule("file/FileUtils"),
 		PreferencesManager = brackets.getModule("preferences/PreferencesManager"),
 		CodeInspection = brackets.getModule("language/CodeInspection"),
-		preferences = PreferencesManager.getExtensionPrefs("lkytal.autocoffee");
+		preferences = PreferencesManager.getExtensionPrefs("Autocoffee");
 
 	// default preferences
 	$.extend(preferences, {
@@ -94,10 +95,10 @@ define(function (require, exports, module) {
 		return deferred.promise();
 	}
 
-	// Register files
-	CodeInspection.register("CoffeeScript", {
-		name: "autocoffee",
-		scanFileAsync: compileCoffee
+	AppInit.appReady(function () {
+		CodeInspection.register("coffeescript", {
+			name: "Autocoffee",
+			scanFileAsync: compileCoffee
+		});
 	});
-
 });

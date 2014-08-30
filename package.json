@@ -1,12 +1,10 @@
 {
-    "name": "lkytal.autocoffee",
+    "name": "Autocoffee",
     "title": "CoffeeScript AutoCompile",
 	"description": "Automatically compiles CoffeeScripts upon saving.",
     "homepage": "https://github.com/lkytal/AutoCoffee",
     "version": "1.0.0",
     "author": "lkytal <lkytal@126.com>",
-    "contributors": [
-    ],
     "license": "MIT",
     "engines": {
         "brackets": ">=0.31.0"

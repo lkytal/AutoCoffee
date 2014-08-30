@@ -2,3 +2,5 @@
 example/*.css
 /.jshintrc
 /AutoCoffee.zip
+/node/node_modules/
+/test/

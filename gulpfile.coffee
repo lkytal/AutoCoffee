@@ -23,7 +23,7 @@ gulp.task 'watch', ->
 		.pipe (gulp.dest './')
 
 	gulp
-	.src './test/tests.coffee'
+	.src './test/*.coffee'
 	.pipe watch (files) ->
 		files.pipe(coffee bare: true)
 		.pipe (gulp.dest './test/')
