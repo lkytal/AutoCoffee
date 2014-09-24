@@ -1,5 +1,5 @@
 {
-    "name": "Autocoffee",
+    "name": "autocoffee",
     "title": "CoffeeScript AutoCompile",
 	"description": "Automatically compiles CoffeeScripts upon saving.",
     "homepage": "https://github.com/lkytal/AutoCoffee",

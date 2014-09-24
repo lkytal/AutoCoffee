@@ -1,5 +1,5 @@
 {
-	"name": "Autocoffee.node",
+	"name": "autocoffee.node",
 	"version": "1.0.0",
 	"description": "Node script for lkytal.autocoffee",
 	"dependencies": {
