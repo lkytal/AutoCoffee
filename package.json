@@ -5,7 +5,7 @@
     "homepage": "https://github.com/lkytal/AutoCoffee",
     "version": "1.0.0",
     "author": "lkytal <lkytal@126.com>",
-    "license": "MIT",
+    "license": "GPL",
     "engines": {
         "brackets": ">=0.31.0"
     }

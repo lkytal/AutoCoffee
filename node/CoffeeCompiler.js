@@ -42,6 +42,7 @@
 
 			if (match)
 			{
+				console.log(match[1]);
 				result.options = readOptions(match[1]);
 			}
 			else
